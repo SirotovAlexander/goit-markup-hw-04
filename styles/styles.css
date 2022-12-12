@@ -231,7 +231,15 @@ h1 {
 .list.promo-image > li:not(:last-child) {
   margin-right: 30px;
 }
-
+.advantages-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--main-background-color);
+}
 /* Our team section */
 .team {
   background-color: var(--main-background-color);
