@@ -120,6 +120,9 @@ header {
   color: var(--button-color);
 }
 .contact-link {
+  display: flex;
+  align-items: center;
+
   color: var(--text-color);
   cursor: pointer;
   font-weight: 500;
